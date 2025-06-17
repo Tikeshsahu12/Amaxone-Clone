@@ -34,14 +34,14 @@ li {
     color: #fff;
     font-size: 14px;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 115px;
 }
 
 .location {
     position: relative;
     /* padding: 5px 30px; */
-    margin-left: 25px;
+    margin-left: 28px;
     /* border: 1px solid #fff; */
     color: #fff;
 }
@@ -64,7 +64,7 @@ li {
 
 .search {
     display: flex;
-    margin-left: 25px;
+    margin-left: 28px;
 }
 .search input {
     width: 40vw;
@@ -88,7 +88,8 @@ input:focus {
 
 .country-section {
     display: flex;
-    margin-left: 25px;
+    margin-left: 28px;
+    position: relative;
 }
 .country-section img {
     width: 25px;
@@ -98,4 +99,30 @@ input:focus {
     font-size: 14px;
     padding-left: 4px;
     font-weight: 700;
+}
+.country-section i {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.account-section {
+    position: relative;
+}
+.account-section i {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 18px;
+    left: 110px;
+}
+
+.cart {
+    color: #fff;
+    margin: 0 28px;
+}
+.cart i {
+    font-size: 30px;
 }
