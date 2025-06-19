@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazone Clone</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-nav">
+    <div class="header">
+        <div class="header-nav">
             <nav>
                 <div class="logo">
                     <img src="images/Amazon-Logo.webp" alt="Loading"><span>.in</span>
@@ -26,11 +29,14 @@
             </div>
 
             <div class="search">
-                <!-- <button value="Amazone"></button> -->
                 <input type="text" placeholder="Search Amazone.in" />
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-
+            <div class="mobile-search">
+                <i class="fa-solid fa-magnifying-glass search-tab"></i>
+                <input type="text" placeholder="Search Amazone.in" />
+                <i class="fa-solid fa-microphone mic"></i>
+            </div>
             <div class="country-section">
                 <img src="images/flag.webp" />
                 <span class="language">EN</span>
@@ -53,8 +59,129 @@
                 <span class="cart-detail">Cart</span>
             </div>
         </div>
+
+        <div class="nav-list">
+            <div class="menuAll">
+                <i class="fa-solid fa-bars"></i>
+                <li><a href="#">All</a></li>
+            </div>
+            <div class="listItem">
+                <li><a href="#">Mx Player</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Bestsellers</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Prime</a></li>
+                <li><a href="#">Today's Deal</a></li>
+                <li><a href="#">Custmer Service</a></li>
+                <li><a href="#">New Realeses</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Amazone Pay</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Home & Kitchen</a></li>
+                <li><a href="#">Computers</a></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <div class="carousel-section">
+            <img src="images/carousel1.jpg" alt="Loading">
+        </div>
+        <div class="item-section">
+            <div class="item1">
+                <h2>Appliances for your home |<br> Up to 55% off</h2>
+                <div class="box">
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Air conditioners</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Refrigerators</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+
+            <div class="item1">
+                <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box">
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Air conditioners</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Refrigerators</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item1">
+                <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box">
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Air conditioners</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Refrigerators</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item1">
+                <h2>Appliances for your home | Up to 55% off</h2>
+                <div class="box">
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Air conditioners</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Refrigerators</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Microwaves</p>
+                    </div>
+                    <div class="boxItem">
+                        <img src="images/item1.jpg" alt="Loading">
+                        <p>Washing machines</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://kit.fontawesome.com/3315852ddf.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 </body>
 
 </html>
