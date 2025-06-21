@@ -14,8 +14,9 @@ li {
 }
 
 .header-nav {
+    /* width: 1380px; */
     background-color: #000;
-    /* height: 70px; */
+    height: 70px;
     display: flex;
     align-items: center;
 }
@@ -164,34 +165,31 @@ input:focus {
 }
 
 /* carousel-item */
-
+/* 
 .carousel {
     max-width: 1380px;
-}
-.carousel-section {
-    position: relative;
-}
-.carousel-section img {
-    width: 100%;
-}
-.carousel h2 {
-    font-size: 21px;
-    padding-left: 20px;
-    line-height: 28px;
-    margin-top: 20px;
-}
+} */
+
+/* .mobile-section {
+    display: none;
+} */
 .item-section {
+    max-width: 1380px;
     display: flex;
-    gap: 21px;
-    position: absolute;
-    top: 350px;
-    margin: 0 21px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .item1 {
     width: 310px;
-    border: 2px solid red;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     background-color: #fff;
+    padding-bottom: 20px;
+}
+.item1 h2 {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 28px;
+    margin-top: 20px;
 }
 .box {
     display: flex;
@@ -211,4 +209,84 @@ input:focus {
     font-size: 12px;
     padding-left: 20px;
     color: #2f6ca7;
+}
+
+/* item2 */
+.signBtn {
+    width: 320px;
+    height: 150px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.signBtn h2 {
+    font-size: 20px;
+    line-height: 28px;
+}
+.signBtn button {
+    width: 100%;
+    background-color: #FFCE12;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+}
+.signBtn a {
+    font-size: 12px;
+}
+.itemZebronic {
+    width: 300px;
+    height: 270px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    padding: 15px;
+    margin-left: 10px;
+}
+.zebronicSpeaker {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.itemZebronic .zebSpeakarImg {
+    width: 150px;
+}
+.itemZebronic .zebLogoImg {
+    width: 100px;
+}
+.itemZebronic h5 {
+    font-weight: 600;
+}
+.itemZebronic .ratings {
+    width: 100px;
+}
+.zebronicDetials {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.priceTag {
+    display: flex;
+    gap: 20px;
+    padding-left: 5px;
+}
+.priceTag span {
+    font-size: 14px;
+}
+.price {
+    position: relative;
+}
+.price i{
+    position: absolute;
+    font-size: 8px;
+    top: 2px;
+    left: -6px;
+}
+.price .zero {
+    position: absolute;
+    font-size: 10px;
+}
+.priceCross i{
+    font-size: 12px;
 }
