@@ -89,9 +89,11 @@ input:focus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
 .mobile-search {
     display: none;
 }
+
 .country-section {
     display: flex;
     margin-left: 28px;
@@ -147,18 +149,22 @@ input:focus {
     padding-left: 20px;
     height: 35px;
 }
+
 .menuAll {
     display: flex;
     align-items: center;
     gap: 4px;
 }
+
 .nav-list a {
     color: #fff;
     font-size: 14px;
 }
+
 .nav-list i {
     color: #fff;
 }
+
 .listItem {
     display: flex;
     gap: 20px;
@@ -179,18 +185,21 @@ input:focus {
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
+
 .item1 {
     width: 310px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     background-color: #fff;
     padding-bottom: 20px;
 }
+
 .item1 h2 {
     font-size: 20px;
     padding-left: 20px;
     line-height: 28px;
     margin-top: 20px;
 }
+
 .box {
     display: flex;
     flex-wrap: wrap;
@@ -198,13 +207,16 @@ input:focus {
     column-gap: 14px;
     padding: 10px 20px 30px 20px;
 }
+
 .boxItem img {
     width: 125px;
     height: 110px;
 }
+
 .boxItem p {
     font-size: 12px;
 }
+
 .item1 a {
     font-size: 12px;
     padding-left: 20px;
@@ -220,10 +232,12 @@ input:focus {
     padding: 20px;
     margin-bottom: 20px;
 }
+
 .signBtn h2 {
     font-size: 20px;
     line-height: 28px;
 }
+
 .signBtn button {
     width: 100%;
     background-color: #FFCE12;
@@ -232,9 +246,11 @@ input:focus {
     border: none;
     margin-top: 10px;
 }
+
 .signBtn a {
     font-size: 12px;
 }
+
 .itemZebronic {
     width: 300px;
     height: 270px;
@@ -243,50 +259,62 @@ input:focus {
     padding: 15px;
     margin-left: 10px;
 }
+
 .zebronicSpeaker {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 60px;
 }
+
 .itemZebronic .zebSpeakarImg {
     width: 150px;
 }
+
 .itemZebronic .zebLogoImg {
     width: 100px;
 }
+
 .itemZebronic h5 {
     font-weight: 600;
 }
+
 .itemZebronic .ratings {
     width: 100px;
 }
+
 .zebronicDetials {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
+
 .priceTag {
     display: flex;
     gap: 20px;
     padding-left: 5px;
 }
+
 .priceTag span {
     font-size: 14px;
 }
+
 .price {
     position: relative;
 }
-.price i{
+
+.price i {
     position: absolute;
     font-size: 8px;
     top: 2px;
     left: -6px;
 }
+
 .price .zero {
     position: absolute;
     font-size: 10px;
 }
-.priceCross i{
+
+.priceCross i {
     font-size: 12px;
 }
