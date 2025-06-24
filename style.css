@@ -12,6 +12,9 @@ a {
 li {
     list-style: none;
 }
+body img {
+    cursor: pointer;
+}
 
 .header-nav {
     /* width: 1380px; */
@@ -19,11 +22,13 @@ li {
     height: 70px;
     display: flex;
     align-items: center;
+    /* position: sticky;
+    top: 0; */
 }
 
 .logo {
     padding: 0 15px;
-    /* border: 1px solid #fff; */
+    cursor: pointer;
 }
 
 .logo img {
@@ -45,6 +50,7 @@ li {
     margin-left: 28px;
     /* border: 1px solid #fff; */
     color: #fff;
+    cursor: pointer;
 }
 
 .location i {
@@ -66,6 +72,7 @@ li {
 .search {
     display: flex;
     margin-left: 28px;
+    cursor: pointer;
 }
 
 .search input {
@@ -98,6 +105,7 @@ input:focus {
     display: flex;
     margin-left: 28px;
     position: relative;
+    cursor: pointer;
 }
 
 .country-section img {
@@ -121,6 +129,7 @@ input:focus {
 
 .account-section {
     position: relative;
+    cursor: pointer;
 }
 
 .account-section i {
@@ -134,6 +143,7 @@ input:focus {
 .cart {
     color: #fff;
     margin: 0 28px;
+    cursor: pointer;
 }
 
 .cart i {
@@ -211,6 +221,7 @@ input:focus {
 .boxItem img {
     width: 125px;
     height: 110px;
+    object-fit: cover;
 }
 
 .boxItem p {
@@ -224,6 +235,12 @@ input:focus {
 }
 
 /* item2 */
+.item2 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
 .signBtn {
     width: 320px;
     height: 150px;
@@ -256,7 +273,7 @@ input:focus {
     height: 270px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
     background-color: #fff;
-    padding: 15px;
+    padding: 20px;
     margin-left: 10px;
 }
 
@@ -264,14 +281,14 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .itemZebronic .zebSpeakarImg {
     width: 150px;
 }
 
-.itemZebronic .zebLogoImg {
+.itemZebronic .zebLogoImg, .ratings  {
     width: 100px;
 }
 
@@ -279,16 +296,14 @@ input:focus {
     font-weight: 600;
 }
 
-.itemZebronic .ratings {
-    width: 100px;
-}
-
 .zebronicDetials {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-
+.itempDetials {
+    font-size: 13px;
+}
 .priceTag {
     display: flex;
     gap: 20px;
@@ -317,4 +332,114 @@ input:focus {
 
 .priceCross i {
     font-size: 12px;
+}
+
+/* lastSeenProduct */
+
+.lastSeenProduct {
+    max-width: 1380px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.lastSeenProduct h2 {
+    display: inline-block;
+    padding: 30px 10px 0 30px
+}
+.lastSeenProduct a {
+    display: inline-block;
+    font-size: 12px;
+    color: #5788b8;
+}
+.seenProductImg {
+    display: flex;
+    padding: 30px;
+}
+
+.seenProductImg img {
+    width: 250px;
+}
+
+.fashionBrandsProduct img {
+    height: 200px;
+}
+
+/* productBangle */
+.productBangle {
+    padding: 10px 20px 30px 20px;
+}
+.fashionItem {
+    display: flex;
+    justify-content: center;
+}
+.fashionItem img {
+    width: 80%;
+    height: 150px;
+}
+.productBangle .priceTag {
+    margin: 10px 0 15px 0;
+}
+.indianPrice i {
+    font-size: 11px;
+}
+.indianPrice span {
+    font-size: 22px;
+}
+.indianPrice .zero {
+    font-size: 11px;
+}
+.indianCrossPrice {
+    font-size: 12px;
+    color: #6f7272;
+}
+.bangleItem {
+    display: flex;
+    gap: 10px;
+}
+.bangleItem img {
+    width: 60px;
+    height: 70px;
+    border: 1px solid #2162a1;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+
+/* footer */
+.backTopFooter p {
+    font-size: 14px;
+    text-align: center;
+    background-color: #37475a;
+    color: #fff;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.mainFooter {
+    max-width: 1380px;
+    background-color: #232F3E;
+    display: flex;
+    gap: 100px;
+    padding: 40px 200px;
+}
+.mainFooter h4 {
+    color: #fff;
+}
+.mainFooter a {
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.mainFooter a:hover {
+    text-decoration: underline;
+}
+.subfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footerLogo {
+    background-color: #232F3E;
+}
+.footerLogo img {
+    width: 100px;
 }
